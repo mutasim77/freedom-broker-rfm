@@ -16,6 +16,10 @@
 
 ---
 
+🎥 [📽️ Presentation Slides (Google Slides)](https://docs.google.com/presentation/d/1Mc9mmGWhy-LNpTEZVTWo8tHOoso-_cMUcKpmRNRi7T0/edit?usp=sharing)  
+
+---
+
 ## 📖 Table of Contents
 
 - [About](#about)  
@@ -49,31 +53,46 @@ Freedom Broker – онлайн-брокер с доступом к акциям
 ```
 
 freedom-broker-rfm/
+├── README.md
 ├── dags/
-│   ├── dag\_freedom-broker-rfm.py
-│   ├── dag\_freedom-broker-rfm-extended.py
-│   ├── first\_dag.py
+│   ├── dag_freedom-broker-rfm.py
+│   ├── dag_freedom-broker-rfm-extended.py
+│   ├── first_dag.py
 │   └── sql/
-│       ├── create\_rfm\_table.sql
-│       ├── calculate\_rfm\_scores.sql
-│       ├── create\_segment\_demographics.sql
-│       ├── create\_segment\_summary.sql
-│       └── create\_solution\_table.sql
+│       ├── calculate_rfm_scores.sql
+│       ├── create_rfm_table.sql
+│       ├── create_segment_demographics.sql
+│       ├── create_segment_summary.sql
+│       └── create_solution_table.sql
 ├── data/
 │   ├── raw/
 │   └── processed/
+│       └── cluster_profiles.csv
+├── docker-compose.yaml
 ├── docs/
 │   └── images/
+│       ├── airflow_logo.png
+│       ├── docker_logo.png
+│       ├── freedom_broker_logo.png
+│       ├── img.png
+│       ├── postgres_logo.png
+│       ├── python_logo.png
+│       └── thank_you.png
 ├── ml/
-│   ├── rfm\_segmenter.py
-│   └── models/
-│       └── kmeans\_model.pkl
-├── scripts/
-│   ├── data\_loader.py
-│   └── rfm\_calculator.py
-├── docker-compose.yaml
+│   ├── broker_tiny_prediction.py
+│   ├── formulas.md
+│   ├── freedom_rfm_unified.ipynb
+│   └── model3.ipynb
 ├── requirements.txt
-└── README.md
+├── scripts/
+├── visualizations/
+│   ├── KMeans_heatmap (1).png
+│   ├── KMeans_tsne (1).png
+│   ├── dashboard.py
+│   ├── kmeans_analysis (1).png
+│   ├── kmeans_analysis (2).png
+│   ├── tg_image_3503182383.png
+│   └── tg_image_924826282.png
 
 ````
 
