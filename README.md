@@ -151,29 +151,6 @@ docker-compose up -d
 
 ---
 
-### ML Segmentation
-
-Выполняется в `ml/rfm_segmenter.py`:
-
-```bash
-python ml/rfm_segmenter.py \
-  --input data/processed/rfm_data.csv \
-  --output ml/models/kmeans_model.pkl \
-  --n_clusters 10
-```
-
----
-
-## 📊 Data Layout
-
-```
-data/
-├── raw/           # Исходные CSV-файлы
-└── processed/     # Выходные таблицы RFM и сегменты
-```
-
----
-
 ## 🤝 Contributing
 
 1. Fork this repo
