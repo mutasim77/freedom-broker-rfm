@@ -85,7 +85,7 @@ freedom-broker-rfm/
    ```bash
    git clone https://github.com/yourusername/freedom-broker-rfm.git
    cd freedom-broker-rfm
-```
+   ```
 
 2. **Copy environment variables**
 
