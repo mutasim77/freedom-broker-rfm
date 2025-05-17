@@ -83,7 +83,7 @@ freedom-broker-rfm/
 
 1. **Clone repository**  
    ```bash
-   git clone https://github.com/yourusername/freedom-broker-rfm.git
+   git clone https://github.com/mutasim77/freedom-broker-rfm.git
    cd freedom-broker-rfm
    ```
 
