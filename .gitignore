@@ -50,6 +50,6 @@ Thumbs.db
 *.swo
 
 .ipynb_checkpoints
-*.ipynb
+#*.ipynb
 
 *.log
